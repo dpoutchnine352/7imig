@@ -1,0 +1,126 @@
+body{
+    background-color: lightgray;
+}
+#jugadors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: flex-start;
+}
+#btGenerals{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+}
+/*
+.sencer{
+    width: 50%;
+}
+.petit{
+    width: 30%;
+}*/
+h1{
+    text-align: center;
+}
+#cartesJugador, #cartesBanca{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.carta{
+    height: 300px;
+    width: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 4px;
+    position: relative;
+    margin: 5px;
+}
+
+.bt {
+    background-color: #e8e8e8;
+    width:100px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 3px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+    cursor: pointer;
+}
+#flexAposta, #flexDiners{
+    display: flex;
+    flex-direction: row;
+}
+#flexAposta *, #flexDiners *, #flexPunts{
+    border-radius: 4px;
+    margin: 5px;
+    padding: 3px;
+}
+label span{
+    margin-left: 5px;
+}
+input{
+    width:50px;
+}
+#btJugador{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+#btJugador div{
+    background-color: #e8e8e8;
+    text-align: center;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 3px 10px 3px;
+    border-width: 2px;
+    cursor: pointer;
+    border-style: solid;
+    border-color:black;
+}
+.carta .collImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60%;
+    max-height: 60%;
+}
+#jugador, #banca{
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    width: 40%;
+    min-width: 300px;
+    padding: 20px;
+    margin-top: 0;
+    background-color: white;
+}
+#missatgeStart, #missatgeFinal{
+    text-align: center;
+    margin-top:20px;
+}
+#novaPartida {
+    margin: 10px auto 0;
+}
+.divNom {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.num {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px;
+}
